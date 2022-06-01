@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-color: blue;
+    margin-top: 20rem;
+}
+
+#arttır{
+    
+    font: 900;
+    font-size: 2rem;
+    color: white;
+    width: 5rem;
+    height: 5rem;
+    background-color: red;
+}
+
+#azalt{
+    font: 900;
+    font-size: 2rem;
+    color: white;
+    width: 5rem;
+    height: 5rem;
+    background-color: pink;
+}
+#sonuc{
+    font: 900;
+    font-size: 2rem;
+    color: white;
+    width: 5rem;
+    height: 5rem;
+    background-color:  yellow;
+    color: black;
+}

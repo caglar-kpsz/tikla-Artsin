@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAYI ARTIR-EKSİLT</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>SAYI ARTTIR VE EKSİLT</h1>
+    
+        <input id="arttır" type="button" onclick="arttır()"  value="+">
+        <input id="sonuc" type="button"  value="0">
+        <input id="azalt" type="button" value="-" onclick="azalt()" >
+    
+    <script>
+        function arttır(){
+            const sonuc=document.getElementById("sonuc");
+            sonuc.value=Number(sonuc.value)+1;
+        }
+        function azalt(){
+            const sonuc=document.getElementById("sonuc");
+            sonuc.value=Number(sonuc.value)-1;
+        }
+    </script>
+</body>
+</html>
